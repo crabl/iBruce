@@ -26,8 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *myHTML = @"<html><body><h1>Hello, world!</h1></body></html>";
-    [self.viewWeb loadHTMLString:myHTML baseURL:nil];
+    NSURL *baseURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] bundlePath]];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bruceVideo" ofType:@"html"];
+    NSString *content = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
+    [self.viewWeb loadHTMLString:content baseURL:baseURL];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1025A6B117DCEDF700E8B31D /* bruceVideo.html in Resources */ = {isa = PBXBuildFile; fileRef = 1025A6B017DCEDF700E8B31D /* bruceVideo.html */; };
 		1025A6B417DCF14E00E8B31D /* BruceVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1025A6B317DCF14E00E8B31D /* BruceVideoViewController.m */; };
+		1025A6B617DCFE1E00E8B31D /* BruceTheMan.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1025A6B517DCFE1E00E8B31D /* BruceTheMan.mov */; };
 		10AEC9F217DBEBCD00BEBD0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AEC9F117DBEBCD00BEBD0B /* UIKit.framework */; };
 		10AEC9F417DBEBCD00BEBD0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AEC9F317DBEBCD00BEBD0B /* Foundation.framework */; };
 		10AEC9F617DBEBCD00BEBD0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AEC9F517DBEBCD00BEBD0B /* CoreGraphics.framework */; };
@@ -39,9 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1025A6B017DCEDF700E8B31D /* bruceVideo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bruceVideo.html; sourceTree = "<group>"; };
 		1025A6B217DCF14E00E8B31D /* BruceVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceVideoViewController.h; path = Controllers/BruceVideoViewController.h; sourceTree = "<group>"; };
 		1025A6B317DCF14E00E8B31D /* BruceVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceVideoViewController.m; path = Controllers/BruceVideoViewController.m; sourceTree = "<group>"; };
+		1025A6B517DCFE1E00E8B31D /* BruceTheMan.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = BruceTheMan.mov; path = Assets/BruceTheMan.mov; sourceTree = "<group>"; };
 		10AEC9EE17DBEBCD00BEBD0B /* iBruce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBruce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AEC9F117DBEBCD00BEBD0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		10AEC9F317DBEBCD00BEBD0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +137,7 @@
 		10AEC9F817DBEBCD00BEBD0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1025A6B517DCFE1E00E8B31D /* BruceTheMan.mov */,
 				10AECA4417DC2F8C00BEBD0B /* launch.png */,
 				10AECA3817DC2E2100BEBD0B /* ibruce.png */,
 				10AECA3917DC2E2100BEBD0B /* ibruce@2x.png */,
@@ -170,7 +171,6 @@
 				10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */,
 				10AECA0C17DBEBCD00BEBD0B /* BruceViewController.h */,
 				10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */,
-				1025A6B017DCEDF700E8B31D /* bruceVideo.html */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -246,7 +246,7 @@
 				10AECA3F17DC2E3B00BEBD0B /* ibruce@2x.png in Resources */,
 				10AECA4117DC2E5100BEBD0B /* Default.png in Resources */,
 				10AECA4517DC2F8C00BEBD0B /* launch.png in Resources */,
-				1025A6B117DCEDF700E8B31D /* bruceVideo.html in Resources */,
+				1025A6B617DCFE1E00E8B31D /* BruceTheMan.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
