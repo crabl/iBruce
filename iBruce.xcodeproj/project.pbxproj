@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1025A6B117DCEDF700E8B31D /* bruceVideo.html in Resources */ = {isa = PBXBuildFile; fileRef = 1025A6B017DCEDF700E8B31D /* bruceVideo.html */; };
+		1025A6B417DCF14E00E8B31D /* BruceVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1025A6B317DCF14E00E8B31D /* BruceVideoViewController.m */; };
 		10AEC9F217DBEBCD00BEBD0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AEC9F117DBEBCD00BEBD0B /* UIKit.framework */; };
 		10AEC9F417DBEBCD00BEBD0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AEC9F317DBEBCD00BEBD0B /* Foundation.framework */; };
 		10AEC9F617DBEBCD00BEBD0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AEC9F517DBEBCD00BEBD0B /* CoreGraphics.framework */; };
@@ -19,7 +21,6 @@
 		10AECA0B17DBEBCD00BEBD0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA0917DBEBCD00BEBD0B /* MainStoryboard.storyboard */; };
 		10AECA0E17DBEBCD00BEBD0B /* BruceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */; };
 		10AECA1E17DC0BE400BEBD0B /* BruceMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */; };
-		10AECA2217DC0F5700BEBD0B /* BruceVideoWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA2117DC0F5700BEBD0B /* BruceVideoWebView.m */; };
 		10AECA2417DC0FE900BEBD0B /* bruceVideo.html in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2317DC0FE900BEBD0B /* bruceVideo.html */; };
 		10AECA2817DC20A800BEBD0B /* hat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2717DC20A800BEBD0B /* hat.jpg */; };
 		10AECA2A17DC22AA00BEBD0B /* AppasaurusLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2917DC22AA00BEBD0B /* AppasaurusLogo.png */; };
@@ -38,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1025A6B017DCEDF700E8B31D /* bruceVideo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bruceVideo.html; sourceTree = "<group>"; };
+		1025A6B217DCF14E00E8B31D /* BruceVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceVideoViewController.h; path = Controllers/BruceVideoViewController.h; sourceTree = "<group>"; };
+		1025A6B317DCF14E00E8B31D /* BruceVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceVideoViewController.m; path = Controllers/BruceVideoViewController.m; sourceTree = "<group>"; };
 		10AEC9EE17DBEBCD00BEBD0B /* iBruce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBruce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AEC9F117DBEBCD00BEBD0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		10AEC9F317DBEBCD00BEBD0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,8 +60,6 @@
 		10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BruceViewController.m; sourceTree = "<group>"; };
 		10AECA1C17DC0BE400BEBD0B /* BruceMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceMainViewController.h; path = Controllers/BruceMainViewController.h; sourceTree = "<group>"; };
 		10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceMainViewController.m; path = Controllers/BruceMainViewController.m; sourceTree = "<group>"; };
-		10AECA2017DC0F5700BEBD0B /* BruceVideoWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceVideoWebView.h; path = Controllers/BruceVideoWebView.h; sourceTree = "<group>"; };
-		10AECA2117DC0F5700BEBD0B /* BruceVideoWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceVideoWebView.m; path = Controllers/BruceVideoWebView.m; sourceTree = "<group>"; };
 		10AECA2317DC0FE900BEBD0B /* bruceVideo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bruceVideo.html; path = Assets/bruceVideo.html; sourceTree = "<group>"; };
 		10AECA2717DC20A800BEBD0B /* hat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hat.jpg; path = Assets/hat.jpg; sourceTree = "<group>"; };
 		10AECA2917DC22AA00BEBD0B /* AppasaurusLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppasaurusLogo.png; path = Assets/AppasaurusLogo.png; sourceTree = "<group>"; };
@@ -160,14 +162,15 @@
 		10AECA1F17DC0F2200BEBD0B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1025A6B217DCF14E00E8B31D /* BruceVideoViewController.h */,
+				1025A6B317DCF14E00E8B31D /* BruceVideoViewController.m */,
 				10AECA2B17DC260D00BEBD0B /* BruceAboutViewController.h */,
 				10AECA2C17DC260D00BEBD0B /* BruceAboutViewController.m */,
 				10AECA1C17DC0BE400BEBD0B /* BruceMainViewController.h */,
 				10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */,
 				10AECA0C17DBEBCD00BEBD0B /* BruceViewController.h */,
 				10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */,
-				10AECA2017DC0F5700BEBD0B /* BruceVideoWebView.h */,
-				10AECA2117DC0F5700BEBD0B /* BruceVideoWebView.m */,
+				1025A6B017DCEDF700E8B31D /* bruceVideo.html */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				10AECA3F17DC2E3B00BEBD0B /* ibruce@2x.png in Resources */,
 				10AECA4117DC2E5100BEBD0B /* Default.png in Resources */,
 				10AECA4517DC2F8C00BEBD0B /* launch.png in Resources */,
+				1025A6B117DCEDF700E8B31D /* bruceVideo.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +261,8 @@
 				10AECA0217DBEBCD00BEBD0B /* BruceAppDelegate.m in Sources */,
 				10AECA0E17DBEBCD00BEBD0B /* BruceViewController.m in Sources */,
 				10AECA1E17DC0BE400BEBD0B /* BruceMainViewController.m in Sources */,
-				10AECA2217DC0F5700BEBD0B /* BruceVideoWebView.m in Sources */,
 				10AECA2D17DC260D00BEBD0B /* BruceAboutViewController.m in Sources */,
+				1025A6B417DCF14E00E8B31D /* BruceVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +385,7 @@
 				10AECA1317DBEBCD00BEBD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

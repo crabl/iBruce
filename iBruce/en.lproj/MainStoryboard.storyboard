@@ -194,19 +194,19 @@
             </objects>
             <point key="canvasLocation" x="1399" y="1059"/>
         </scene>
-        <!--View Controller - Video Biography-->
+        <!--Bruce Video View Controller - Video Biography-->
         <scene sceneID="a3O-jb-fHj">
             <objects>
-                <viewController id="1c9-ZN-04g" sceneMemberID="viewController">
-                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="Uaw-bO-Q4K" customClass="BruceVideoWebView">
+                <viewController id="1c9-ZN-04g" customClass="BruceVideoViewController" sceneMemberID="viewController">
+                    <webView key="view" contentMode="scaleToFill" id="gaW-r2-zWJ">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <accessibility key="accessibilityConfiguration">
-                            <accessibilityTraits key="traits" none="YES" playsSound="YES" notEnabled="YES"/>
-                        </accessibility>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </webView>
                     <navigationItem key="navigationItem" title="Video Biography" id="N8m-0a-DuT"/>
+                    <connections>
+                        <outlet property="viewWeb" destination="gaW-r2-zWJ" id="jI4-RT-F1K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TAy-J5-qLt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -279,23 +279,6 @@
         <image name="AppasaurusLogo.png" width="280" height="205"/>
         <image name="hat.jpg" width="640" height="480"/>
     </resources>
-    <classes>
-        <class className="BruceAboutViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BruceAboutViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="visitAppasaurusWebsite:" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="BruceMainViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BruceMainViewController.h"/>
-        </class>
-        <class className="BruceVideoWebView" superclassName="UIWebView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BruceVideoWebView.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
