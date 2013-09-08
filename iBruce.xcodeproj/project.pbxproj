@@ -18,6 +18,23 @@
 		10AECA0817DBEBCD00BEBD0B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA0717DBEBCD00BEBD0B /* Default-568h@2x.png */; };
 		10AECA0B17DBEBCD00BEBD0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA0917DBEBCD00BEBD0B /* MainStoryboard.storyboard */; };
 		10AECA0E17DBEBCD00BEBD0B /* BruceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */; };
+		10AECA1E17DC0BE400BEBD0B /* BruceMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */; };
+		10AECA2217DC0F5700BEBD0B /* BruceVideoWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA2117DC0F5700BEBD0B /* BruceVideoWebView.m */; };
+		10AECA2417DC0FE900BEBD0B /* bruceVideo.html in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2317DC0FE900BEBD0B /* bruceVideo.html */; };
+		10AECA2817DC20A800BEBD0B /* hat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2717DC20A800BEBD0B /* hat.jpg */; };
+		10AECA2A17DC22AA00BEBD0B /* AppasaurusLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2917DC22AA00BEBD0B /* AppasaurusLogo.png */; };
+		10AECA2D17DC260D00BEBD0B /* BruceAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AECA2C17DC260D00BEBD0B /* BruceAboutViewController.m */; };
+		10AECA3317DC2DAA00BEBD0B /* bMcKillop.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2E17DC2DAA00BEBD0B /* bMcKillop.png */; };
+		10AECA3417DC2DAA00BEBD0B /* bruce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA2F17DC2DAA00BEBD0B /* bruce.jpg */; };
+		10AECA3517DC2DAA00BEBD0B /* burnt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3017DC2DAA00BEBD0B /* burnt.jpg */; };
+		10AECA3617DC2DAA00BEBD0B /* business.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3117DC2DAA00BEBD0B /* business.jpg */; };
+		10AECA3717DC2DAA00BEBD0B /* lolwut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3217DC2DAA00BEBD0B /* lolwut.jpg */; };
+		10AECA3A17DC2E2100BEBD0B /* ibruce.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3817DC2E2100BEBD0B /* ibruce.png */; };
+		10AECA3B17DC2E2100BEBD0B /* ibruce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3917DC2E2100BEBD0B /* ibruce@2x.png */; };
+		10AECA3D17DC2E3700BEBD0B /* ibruce.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3C17DC2E3700BEBD0B /* ibruce.png */; };
+		10AECA3F17DC2E3B00BEBD0B /* ibruce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA3E17DC2E3B00BEBD0B /* ibruce@2x.png */; };
+		10AECA4117DC2E5100BEBD0B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA4017DC2E5100BEBD0B /* Default.png */; };
+		10AECA4517DC2F8C00BEBD0B /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 10AECA4417DC2F8C00BEBD0B /* launch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +54,26 @@
 		10AECA0A17DBEBCD00BEBD0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		10AECA0C17DBEBCD00BEBD0B /* BruceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BruceViewController.h; sourceTree = "<group>"; };
 		10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BruceViewController.m; sourceTree = "<group>"; };
+		10AECA1C17DC0BE400BEBD0B /* BruceMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceMainViewController.h; path = Controllers/BruceMainViewController.h; sourceTree = "<group>"; };
+		10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceMainViewController.m; path = Controllers/BruceMainViewController.m; sourceTree = "<group>"; };
+		10AECA2017DC0F5700BEBD0B /* BruceVideoWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceVideoWebView.h; path = Controllers/BruceVideoWebView.h; sourceTree = "<group>"; };
+		10AECA2117DC0F5700BEBD0B /* BruceVideoWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceVideoWebView.m; path = Controllers/BruceVideoWebView.m; sourceTree = "<group>"; };
+		10AECA2317DC0FE900BEBD0B /* bruceVideo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = bruceVideo.html; path = Assets/bruceVideo.html; sourceTree = "<group>"; };
+		10AECA2717DC20A800BEBD0B /* hat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hat.jpg; path = Assets/hat.jpg; sourceTree = "<group>"; };
+		10AECA2917DC22AA00BEBD0B /* AppasaurusLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppasaurusLogo.png; path = Assets/AppasaurusLogo.png; sourceTree = "<group>"; };
+		10AECA2B17DC260D00BEBD0B /* BruceAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BruceAboutViewController.h; path = Controllers/BruceAboutViewController.h; sourceTree = "<group>"; };
+		10AECA2C17DC260D00BEBD0B /* BruceAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BruceAboutViewController.m; path = Controllers/BruceAboutViewController.m; sourceTree = "<group>"; };
+		10AECA2E17DC2DAA00BEBD0B /* bMcKillop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bMcKillop.png; path = Assets/bMcKillop.png; sourceTree = "<group>"; };
+		10AECA2F17DC2DAA00BEBD0B /* bruce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bruce.jpg; path = Assets/bruce.jpg; sourceTree = "<group>"; };
+		10AECA3017DC2DAA00BEBD0B /* burnt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = burnt.jpg; path = Assets/burnt.jpg; sourceTree = "<group>"; };
+		10AECA3117DC2DAA00BEBD0B /* business.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = business.jpg; path = Assets/business.jpg; sourceTree = "<group>"; };
+		10AECA3217DC2DAA00BEBD0B /* lolwut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lolwut.jpg; path = Assets/lolwut.jpg; sourceTree = "<group>"; };
+		10AECA3817DC2E2100BEBD0B /* ibruce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ibruce.png; path = Assets/ibruce.png; sourceTree = "<group>"; };
+		10AECA3917DC2E2100BEBD0B /* ibruce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ibruce@2x.png"; path = "Assets/ibruce@2x.png"; sourceTree = "<group>"; };
+		10AECA3C17DC2E3700BEBD0B /* ibruce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibruce.png; sourceTree = "<group>"; };
+		10AECA3E17DC2E3B00BEBD0B /* ibruce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ibruce@2x.png"; sourceTree = "<group>"; };
+		10AECA4017DC2E5100BEBD0B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		10AECA4417DC2F8C00BEBD0B /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = Assets/launch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +93,9 @@
 		10AEC9E517DBEBCD00BEBD0B = {
 			isa = PBXGroup;
 			children = (
+				10AECA4017DC2E5100BEBD0B /* Default.png */,
+				10AECA3E17DC2E3B00BEBD0B /* ibruce@2x.png */,
+				10AECA3C17DC2E3700BEBD0B /* ibruce.png */,
 				10AEC9F717DBEBCD00BEBD0B /* iBruce */,
 				10AEC9F017DBEBCD00BEBD0B /* Frameworks */,
 				10AEC9EF17DBEBCD00BEBD0B /* Products */,
@@ -86,8 +126,7 @@
 				10AECA0017DBEBCD00BEBD0B /* BruceAppDelegate.h */,
 				10AECA0117DBEBCD00BEBD0B /* BruceAppDelegate.m */,
 				10AECA0917DBEBCD00BEBD0B /* MainStoryboard.storyboard */,
-				10AECA0C17DBEBCD00BEBD0B /* BruceViewController.h */,
-				10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */,
+				10AECA1F17DC0F2200BEBD0B /* Controllers */,
 				10AEC9F817DBEBCD00BEBD0B /* Supporting Files */,
 			);
 			path = iBruce;
@@ -96,6 +135,16 @@
 		10AEC9F817DBEBCD00BEBD0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10AECA4417DC2F8C00BEBD0B /* launch.png */,
+				10AECA3817DC2E2100BEBD0B /* ibruce.png */,
+				10AECA3917DC2E2100BEBD0B /* ibruce@2x.png */,
+				10AECA2E17DC2DAA00BEBD0B /* bMcKillop.png */,
+				10AECA2F17DC2DAA00BEBD0B /* bruce.jpg */,
+				10AECA3017DC2DAA00BEBD0B /* burnt.jpg */,
+				10AECA3117DC2DAA00BEBD0B /* business.jpg */,
+				10AECA3217DC2DAA00BEBD0B /* lolwut.jpg */,
+				10AECA2917DC22AA00BEBD0B /* AppasaurusLogo.png */,
+				10AECA2717DC20A800BEBD0B /* hat.jpg */,
 				10AEC9F917DBEBCD00BEBD0B /* iBruce-Info.plist */,
 				10AEC9FA17DBEBCD00BEBD0B /* InfoPlist.strings */,
 				10AEC9FD17DBEBCD00BEBD0B /* main.m */,
@@ -103,8 +152,24 @@
 				10AECA0317DBEBCD00BEBD0B /* Default.png */,
 				10AECA0517DBEBCD00BEBD0B /* Default@2x.png */,
 				10AECA0717DBEBCD00BEBD0B /* Default-568h@2x.png */,
+				10AECA2317DC0FE900BEBD0B /* bruceVideo.html */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10AECA1F17DC0F2200BEBD0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10AECA2B17DC260D00BEBD0B /* BruceAboutViewController.h */,
+				10AECA2C17DC260D00BEBD0B /* BruceAboutViewController.m */,
+				10AECA1C17DC0BE400BEBD0B /* BruceMainViewController.h */,
+				10AECA1D17DC0BE400BEBD0B /* BruceMainViewController.m */,
+				10AECA0C17DBEBCD00BEBD0B /* BruceViewController.h */,
+				10AECA0D17DBEBCD00BEBD0B /* BruceViewController.m */,
+				10AECA2017DC0F5700BEBD0B /* BruceVideoWebView.h */,
+				10AECA2117DC0F5700BEBD0B /* BruceVideoWebView.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +229,20 @@
 				10AECA0617DBEBCD00BEBD0B /* Default@2x.png in Resources */,
 				10AECA0817DBEBCD00BEBD0B /* Default-568h@2x.png in Resources */,
 				10AECA0B17DBEBCD00BEBD0B /* MainStoryboard.storyboard in Resources */,
+				10AECA2417DC0FE900BEBD0B /* bruceVideo.html in Resources */,
+				10AECA2817DC20A800BEBD0B /* hat.jpg in Resources */,
+				10AECA2A17DC22AA00BEBD0B /* AppasaurusLogo.png in Resources */,
+				10AECA3317DC2DAA00BEBD0B /* bMcKillop.png in Resources */,
+				10AECA3417DC2DAA00BEBD0B /* bruce.jpg in Resources */,
+				10AECA3517DC2DAA00BEBD0B /* burnt.jpg in Resources */,
+				10AECA3617DC2DAA00BEBD0B /* business.jpg in Resources */,
+				10AECA3717DC2DAA00BEBD0B /* lolwut.jpg in Resources */,
+				10AECA3A17DC2E2100BEBD0B /* ibruce.png in Resources */,
+				10AECA3B17DC2E2100BEBD0B /* ibruce@2x.png in Resources */,
+				10AECA3D17DC2E3700BEBD0B /* ibruce.png in Resources */,
+				10AECA3F17DC2E3B00BEBD0B /* ibruce@2x.png in Resources */,
+				10AECA4117DC2E5100BEBD0B /* Default.png in Resources */,
+				10AECA4517DC2F8C00BEBD0B /* launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +256,9 @@
 				10AEC9FE17DBEBCD00BEBD0B /* main.m in Sources */,
 				10AECA0217DBEBCD00BEBD0B /* BruceAppDelegate.m in Sources */,
 				10AECA0E17DBEBCD00BEBD0B /* BruceViewController.m in Sources */,
+				10AECA1E17DC0BE400BEBD0B /* BruceMainViewController.m in Sources */,
+				10AECA2217DC0F5700BEBD0B /* BruceVideoWebView.m in Sources */,
+				10AECA2D17DC260D00BEBD0B /* BruceAboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
