@@ -28,7 +28,7 @@
      */
     switch(indexPath.row) {
         case 0: {
-            NSString *bruceNumber = @"403-894-0682";
+            NSString *bruceNumber = @"555-555-1234";
             NSString *phoneNumber = [@"telprompt://" stringByAppendingString:bruceNumber];
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber]];
             break;
